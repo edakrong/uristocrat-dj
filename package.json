@@ -1,9 +1,9 @@
 {
-  "name": "graphql-fullstack",
-  "homepage": "graphql-fullstack.now.sh",
+  "name": "uristocrat-dj",
+  "homepage": "dj.uristocrat.com",
   "author": {
-    "name": "Kunal Shah",
-    "email": "me@kunal.sh"
+    "name": "Edwin Akrong",
+    "email": "edwin@uristocrat.com"
   },
   "version": "1.0.0",
   "license": "MIT",
@@ -14,24 +14,28 @@
     "start": "next start"
   },
   "dependencies": {
-    "@apollo/react-hooks": "^3.1.0",
+    "@apollo/react-components": "^3.1.3",
+    "@apollo/react-hooks": "^3.1.3",
     "@apollo/react-ssr": "^3.1.0",
+    "@emotion/core": "^10.0.28",
     "@material-ui/core": "^4.4.1",
     "@material-ui/icons": "^4.2.1",
-    "apollo-boost": "^0.4.4",
+    "apollo-boost": "^0.4.7",
     "apollo-link-context": "^1.0.19",
     "apollo-server-micro": "2.6.7",
     "bcryptjs": "^2.4.3",
     "cookie": "^0.4.0",
-    "graphql": "14.4.2",
+    "emotion": "^10.0.27",
+    "graphql": "^14.6.0",
     "graphql-tag": "^2.10.1",
     "isomorphic-unfetch": "^3.0.0",
     "jsonwebtoken": "^8.5.1",
-    "next": "latest",
+    "next": "^9.3.1",
+    "next-server": "^9.0.5",
     "prisma-client-lib": "^1.34.10",
     "prisma2": "^2.0.0-preview016.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "recharts": "^1.7.1"
   },
   "devDependencies": {

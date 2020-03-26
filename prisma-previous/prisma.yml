@@ -1,0 +1,7 @@
+#endpoint: https://us1.prisma.sh/edakrong-d9fb30/uristocrat-dj/
+endpoint: http://localhost:4466
+datamodel: datamodel.graphql
+
+generate:
+  - generator: typescript-client
+    output: ./generated/prisma-client/
